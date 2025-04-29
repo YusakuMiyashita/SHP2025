@@ -1,7 +1,7 @@
-HBA：Hospital Bed Analysis
+SHP：Shizuoka Hospital Project  
 ==============================
 
-厚労省が集計している病床機能報告データの分析を目的とする。
+静岡病院で収集したデータの分析や可視化を目的とする。  
 
 ## 環境構築
 コード管理はGithubを利用している。  
@@ -50,7 +50,7 @@ git clone https://github.com/YusakuMiyashita/HBA.git
 
     |-- csv
     |   `--
-    |-- hba
+    |-- shp
     |   |-- __init__.py
     |   |-- data
     |   |   |-- __init__.py
@@ -62,13 +62,12 @@ git clone https://github.com/YusakuMiyashita/HBA.git
     |   `-- visualization
     |       `-- __init__.py
     |-- .devcontainer
-    |-- .gitignore
     |   |--devcontainer.json
     |   `--docker-compose.yml
+    |-- .gitignore
     |-- notebook
     |   `--
     |-- poetry.lock
-    |-- preprocessing.py
     |-- pyproject.
     |-- README.md
     
